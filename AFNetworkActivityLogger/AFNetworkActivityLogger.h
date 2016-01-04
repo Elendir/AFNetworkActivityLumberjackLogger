@@ -21,6 +21,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
+static const int ddLogLevel = DDLogLevelVerbose;
 
 typedef NS_ENUM(NSUInteger, AFHTTPRequestLoggerLevel) {
   AFLoggerLevelOff,
